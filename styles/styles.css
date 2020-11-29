@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Code+Pro&display=swap");
+* {
+  font-family: "source code pro"; }
+
+.top-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .top-nav a {
+    font-family: "source code pro";
+    text-transform: uppercase;
+    color: #555; }
+  .top-nav .logo {
+    font-family: "permanent marker";
+    font-size: 40px;
+    color: black; }
+
+.block {
+  margin: 40px; }

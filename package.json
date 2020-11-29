@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "react-scripts start",
+    "scss": "node-sass -w src/styles.scss styles/styles.css"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
