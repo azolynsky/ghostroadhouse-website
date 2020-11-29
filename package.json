@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "react-scripts start",
+    "start": "live-server",
     "scss": "node-sass -w src/styles.scss styles/styles.css"
   },
   "dependencies": {

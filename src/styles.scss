@@ -1,14 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Code+Pro&display=swap");
+@import "../lib/bootstrap/scss/bootstrap.scss";
+
 
 *{font-family: "source code pro";}
+
+
+.hero-image{
+  width: 100%;
+}
 
 .top-nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 20px;
 
   a{
-    font-family: "source code pro";
     text-transform: uppercase;
     color: #555;
   }
